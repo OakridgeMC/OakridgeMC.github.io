@@ -1,0 +1,47 @@
+body { font-family : "Verdana", sans-serif;  background: url(img/background.jpg); height:100vh;background-repeat: no-repeat;}
+
+h1 {padding: 40px; text-align: center; font-size: 2.5em;font-weight: 800;line-height:1.25}
+
+li a {text-decoration : none; color : #2d2f31;}
+
+
+nav {
+  width : 50%; 
+  background: #d9d9d9;
+  margin : 40px auto; 
+  margin-left:25%;
+}
+
+span {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.5em;
+  cursor : pointer;
+  display: block;
+}
+
+span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide li {padding : 30px;font-size:1.2em}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 315px;}
+
+hr {
+	width:80%
+}
