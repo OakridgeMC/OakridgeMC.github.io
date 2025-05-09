@@ -41,7 +41,7 @@ span::after {
 
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
-#touch:checked + .slide {height: 395px;}
+#touch:checked + .slide {height: 475px;}
 
 hr {
 	width:80%
