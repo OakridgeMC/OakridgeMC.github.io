@@ -26,7 +26,7 @@
     <script type="text/javascript" src="unmined.map.players.js"></script>
 
     <!-- Custom markers -->
-    <script type="text/javascript" src="custom.markers.js"></script>
+  <!--IN MARKERS.HTML <script type="text/javascript" src="custom.markers.js"></script> -->  
 
     <!-- uNmINeD JS and CSS -->
     <script type="text/javascript" src="unmined.js"></script>
@@ -43,12 +43,12 @@
 		<div class="dropdown">
 			<button class="dropbtn">Change Map</button>
 			<div class="dropdown-content">
-				<a href="../index.html">Members Home</a>
+				<a href="../index.html"> Members Home</a>
 				<a href="#">260110 CURRENT</a>
 			</div>
 		</div>
         	<div class="markers">
-			<a class="markerbutton" href="nomarkers.html">Remove Markers</a>
+			<a class="markerbutton" href="index.html">View Markers</a>
 		</div>
 
 <!-- End Custom Content -->
@@ -57,9 +57,9 @@
 
         document.title = UnminedMapProperties.worldName + " - " + document.title;
 
-        if (UnminedCustomMarkers && UnminedCustomMarkers.isEnabled && UnminedCustomMarkers.markers) {
-            UnminedMapProperties.markers = UnminedMapProperties.markers.concat(UnminedCustomMarkers.markers);
-        }
+ //       if (UnminedCustomMarkers && UnminedCustomMarkers.isEnabled && UnminedCustomMarkers.markers) {
+   //         UnminedMapProperties.markers = UnminedMapProperties.markers.concat(UnminedCustomMarkers.markers);
+  //      }
         
         if (UnminedPlayers && UnminedPlayers.length > 0) {
             UnminedMapProperties.playerMarkers = Unmined.createPlayerMarkers(UnminedPlayers);

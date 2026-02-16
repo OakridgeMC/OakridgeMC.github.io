@@ -37,27 +37,209 @@ Use the imageScale property if the pin image is too large.
 */
 
 UnminedCustomMarkers = {
+  isEnabled: true,
 
-    isEnabled: true,
+  markers: [
+    {
+      x: 0,
+      z: 0,
+      text: "SPAWN",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 20px Calibri,sans serif",
+    },
 
-    markers: [
+    {
+      x: -214,
+      z: -478,
+      text: "Jean",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
 
-        // Example 3: Text only
-        {
-            x: 0,
-            z: 0,
-            text: "Spawn", 
-            textColor: "red", 
-            offsetX: 0,
-            offsetY: 0, 
-            font: "bold 20px Calibri,sans serif",
-        },
+    {
+      x: 333,
+      z: 1492,
+      text: "Artemis",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
 
-        // add your markers here
+    {
+      x: 1343,
+      z: 910,
+      text: "RMD",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
 
+    {
+      x: -523,
+      z: -875,
+      text: "DJ",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
 
+    {
+      x: -1413,
+      z: 180,
+      text: "Phroggy",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
 
+    {
+      x: -1797,
+      z: 394,
+      text: "Phroggy",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
 
-        // do not delete the following two closing brackets
-    ]
-}
+    {
+      x: -697,
+      z: -953,
+      text: "Myranda",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -326,
+      z: 1633,
+      text: "Mars",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -500,
+      z: -500,
+      text: "Zing",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -128,
+      z: 1135,
+      text: "Kiki",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: 626,
+      z: -592,
+      text: "RainbowCat",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -489,
+      z: 652,
+      text: "Sprouts, Raven",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -46,
+      z: 1284,
+      text: "Mazer",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -75,
+      z: 3674,
+      text: "Mazer",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -352,
+      z: -1196,
+      text: "Ziukeal",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -1326,
+      z: 753,
+      text: "Oakie",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -772,
+      z: 1159,
+      text: "Zombie, Swine",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: -427,
+      z: 1162,
+      text: "Swine",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: 3841,
+      z: 149,
+      text: "Starling",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    // do not delete the following two closing brackets
+  ],
+};
