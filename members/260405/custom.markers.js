@@ -163,7 +163,17 @@ UnminedCustomMarkers = {
     {
       x: -489,
       z: 652,
-      text: "Sprouts, Raven",
+      text: "Sprouts",
+      textColor: "red",
+      offsetX: 0,
+      offsetY: 0,
+      font: "bold 12px Calibri,sans serif",
+    },
+
+    {
+      x: 780,
+      z: 580,
+      text: "Raven",
       textColor: "red",
       offsetX: 0,
       offsetY: 0,
