@@ -41,7 +41,8 @@ span::after {
 
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
-#touch:checked + .slide {height: 480px;}
+#touch:checked + .slide {height: 555px;}
+/* Add 75px per li row */
 
 hr {
 	width:80%
